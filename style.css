@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./img/wp11187570.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.men_haqimda {
+    border: 3px solid white;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+.men_haqimda:hover {
+    width: 800px;
+    transition: 1s;
+}
+
+.men_haqimda .ism p {
+    cursor: pointer;
+    font-size: 35px;
+    transition: 0.5s;
+
+}
+.men_haqimda .ism p:hover {
+    color: white;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.men_haqimda .sahifalarim {
+    margin-left: 30px;
+}
+
+.men_haqimda .sahifalarim li {
+    list-style-type: none;
+}
+
+.men_haqimda .sahifalarim li a{
+    font-size: 30px;
+    transition: 1s;
+}
+.men_haqimda .sahifalarim li a:hover {
+    font-size: 35px;
+    transition: 1s;
+}
+
+.men_haqimda .sahifalarim li img {
+    width: 50px;
+    height: 50px;
+}

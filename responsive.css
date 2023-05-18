@@ -1,0 +1,65 @@
+@media(max-width:420px) {
+    
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url(./img/boy.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    
+    
+    
+    .men_haqimda {
+        border: 3px solid white;
+        width: 300px;
+        height: 500px;
+        border-radius: 20px;
+        transition: 1s;
+        
+    }
+    .men_haqimda:hover {
+        width: 300px;
+        transition: 1s;
+    }
+
+    
+    .men_haqimda .ism p {
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        transition: 0.5s;
+    
+    }
+    .men_haqimda .ism p:hover {
+        color: white;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    
+    .men_haqimda .sahifalarim {
+        margin-left: 30px;
+    }
+    
+    .men_haqimda .sahifalarim li {
+        list-style-type: none;
+    }
+    
+    .men_haqimda .sahifalarim li a{
+        font-size: 20px;
+        transition: 1s;
+    }
+    .men_haqimda .sahifalarim li a:hover {
+        font-size: 35px;
+        transition: 1s;
+    }
+    
+    .men_haqimda .sahifalarim li img {
+        width: 40px;
+        height: 40px;
+    }
+}

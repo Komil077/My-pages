@@ -1,65 +1,178 @@
 @media(max-width:420px) {
-    
-    
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
     body {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
-        background-image: url(./img/boy.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
+        background-color: black;
+        height: 100vh;
+        margin: 0rem;
+        overflow: hidden;
     }
-    
-    
-    
+
     .men_haqimda {
-        border: 3px solid white;
-        width: 300px;
-        height: 500px;
-        border-radius: 20px;
-        transition: 1s;
-        
+        /* border: 3px solid white; */
+        width: 80%;
+        height: 80%;
+        border: none;
+        z-index: 10;
+        transition: none;
     }
+
     .men_haqimda:hover {
-        width: 300px;
+        width: 80%;
         transition: 1s;
     }
 
-    
-    .men_haqimda .ism p {
-        cursor: pointer;
-        color: white;
-        font-size: 15px;
-        transition: 0.5s;
-    
-    }
-    .men_haqimda .ism p:hover {
-        color: white;
-        font-size: 20px;
-        transition: 0.5s;
-    }
-    
+
+
+
     .men_haqimda .sahifalarim {
         margin-left: 30px;
     }
-    
-    .men_haqimda .sahifalarim li {
-        list-style-type: none;
+
+    .men_haqimda .sahifalarim div {
+        display: flex;
+        align-items: center;
     }
-    
-    .men_haqimda .sahifalarim li a{
-        font-size: 20px;
-        transition: 1s;
-    }
-    .men_haqimda .sahifalarim li a:hover {
-        font-size: 35px;
-        transition: 1s;
-    }
-    
-    .men_haqimda .sahifalarim li img {
+
+    .men_haqimda .sahifalarim img {
         width: 40px;
         height: 40px;
     }
+
+
+    /* #blob {
+        background-color: white;
+        height: 34vmax;
+        aspect-ratio: 1;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        border-radius: 50%;
+        background: linear-gradient(to right, aquamarine, mediumpurple);
+        animation: rotate 20s infinite;
+        opacity: 0.8;
+      } */
+
+
+
+    /* #blur {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        backdrop-filter: blur(12vmax);
+      } */
+
+
+
+    h1 {
+        font-family: 'Space Mono', monospace;
+        /* font-size: clamp(3rem, 10vw, 10rem); */
+        font-size: 50px;
+        color: white;
+        white-space: nowrap;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        margin: 0rem;
+        z-index: 3;
+    }
+
+
+
+
+    .instagram {
+        font-family: 'Space Mono', monospace;
+        /* font-size: clamp(3rem, 10vw, 10rem); */
+        font-size: 20px;
+        color: white;
+        white-space: nowrap;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        margin: 0rem;
+        z-index: 3;
+        transition: 0.5s;
+    }
+
+    .instagram:hover {
+        font-size: 45px;
+        transition: 0.5s;
+    }
+
+
+
+    .telegram {
+        font-family: 'Space Mono', monospace;
+        /* font-size: clamp(3rem, 10vw, 10rem); */
+        font-size: 20px;
+        color: white;
+        white-space: nowrap;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        margin: 0rem;
+        z-index: 3;
+        transition: 0.5s;
+    }
+
+    .telegram:hover {
+        font-size: 45px;
+        transition: 0.5s;
+    }
+
+
+
+    .youtube {
+        font-family: 'Space Mono', monospace;
+        /* font-size: clamp(3rem, 10vw, 10rem); */
+        font-size: 20px;
+        color: white;
+        white-space: nowrap;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        margin: 0rem;
+        z-index: 3;
+        transition: 0.5s;
+    }
+
+    .youtube:hover {
+        font-size: 45px;
+        transition: 0.5s;
+    }
+
+
+
+    .github {
+        font-family: 'Space Mono', monospace;
+        /* font-size: clamp(3rem, 10vw, 10rem); */
+        font-size: 20px;
+        color: white;
+        white-space: nowrap;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        margin: 0rem;
+        z-index: 3;
+        transition: 0.5s;
+    }
+
+    .github:hover {
+        font-size: 45px;
+        transition: 0.5s;
+    }
+
+
+
+
+
+
 }

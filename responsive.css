@@ -92,7 +92,7 @@
     }
 
     .instagram:hover {
-        font-size: 45px;
+        font-size: 25px;
         transition: 0.5s;
     }
 
@@ -112,7 +112,7 @@
     }
 
     .telegram:hover {
-        font-size: 45px;
+        font-size: 25px;
         transition: 0.5s;
     }
 
@@ -132,7 +132,7 @@
     }
 
     .youtube:hover {
-        font-size: 45px;
+        font-size: 25px;
         transition: 0.5s;
     }
 
@@ -152,7 +152,7 @@
     }
 
     .github:hover {
-        font-size: 45px;
+        font-size: 25px;
         transition: 0.5s;
     }
 

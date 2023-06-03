@@ -21,15 +21,15 @@
 
     .men_haqimda {
         /* border: 3px solid white; */
-        width: 80%;
-        height: 80%;
+        /* width: 80%; */
+        /* height: 80%; */
         border: none;
         z-index: 10;
         transition: none;
     }
 
     .men_haqimda:hover {
-        width: 80%;
+        /* width: 80%; */
         transition: 1s;
     }
 

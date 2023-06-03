@@ -1,4 +1,4 @@
-@media(max-width:420px) {
+@media(max-width:430px) {
 
 
     * {
@@ -13,14 +13,17 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-        background-color: black;
+        /* background-color: rgb(212, 148, 148); */
+        background-image: url(./img/57166.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
         height: 100vh;
         margin: 0rem;
         overflow: hidden;
     }
 
     .men_haqimda {
-        /* border: 3px solid white; */
         /* width: 80%; */
         /* height: 80%; */
         border: none;
@@ -28,10 +31,6 @@
         transition: none;
     }
 
-    .men_haqimda:hover {
-        /* width: 80%; */
-        transition: 1s;
-    }
 
 
 
@@ -51,29 +50,18 @@
     }
 
 
-    /* #blob {
-        background-color: white;
-        height: 34vmax;
-        aspect-ratio: 1;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        translate: -50% -50%;
-        border-radius: 50%;
-        background: linear-gradient(to right, aquamarine, mediumpurple);
-        animation: rotate 20s infinite;
-        opacity: 0.8;
-      } */
+    #blob {
+        background-color: black;
+        height: 0;
+        
+      }
 
 
 
-    /* #blur {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        z-index: 2;
-        backdrop-filter: blur(12vmax);
-      } */
+    #blur {
+        height: 0;
+        width: 0;
+      }
 
 
 

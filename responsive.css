@@ -13,13 +13,13 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
+        /* background-color: rgb(212, 148, 148); */
         background-image: url(./img/57166.webp);
         background-repeat: no-repeat;
-        background-size: 100% 90%;
+        background-size: 100% 100%;
         height: 100vh;
         margin: 0rem;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        overflow: hidden;
     }
 
     .men_haqimda {

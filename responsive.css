@@ -20,8 +20,8 @@
     }
     
     .men_haqimda {
-        /* width: 80%; */
-        /* height: 80%; */
+        width: 80%;
+        height: 80%;
         text-align: center;
         border: none;
         z-index: 10;
@@ -64,7 +64,6 @@
 
     h1 {
         font-family: 'Space Mono', monospace;
-        /* font-size: clamp(3rem, 10vw, 10rem); */
         font-size: 50px;
         color: white;
         white-space: nowrap;
@@ -112,6 +111,26 @@
     }
 
     .telegram:hover {
+        font-size: 25px;
+        transition: 0.5s;
+    }
+
+
+
+    .telegram_prog {
+        font-family: 'Space Mono', monospace;
+        /* font-size: clamp(3rem, 10vw, 10rem); */
+        font-size: 20px;
+        color: white;
+        white-space: nowrap;
+        padding: 0rem clamp(1rem, 2vw, 3rem);
+        border-radius: clamp(0.4rem, 0.75vw, 1rem);
+        margin: 0rem;
+        z-index: 3;
+        transition: 0.5s;
+    }
+
+    .telegram_prog:hover {
         font-size: 25px;
         transition: 0.5s;
     }

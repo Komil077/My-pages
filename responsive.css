@@ -10,32 +10,37 @@
 
     body {
         height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
         background-image: url(./img/57166.webp);
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        background-position: center;
         overflow: hidden;
     }
-    
+
     .men_haqimda {
         /* width: 80%; */
         /* height: 80%; */
-        text-align: center;
+        /* text-align: center; */
         border: none;
         z-index: 10;
-        transition: none;
+        /* transition: none; */
     }
 
-
+    .men_haqimda:hover {
+        /* width: 0px; */
+        /* height: 0px; */
+        /* transition: none; */
+    }
 
 
 
     .men_haqimda .sahifalarim {
         margin-left: 0px;
     }
-
+    
     .men_haqimda .sahifalarim div {
         display: flex;
         align-items: center;
@@ -50,15 +55,15 @@
     #blob {
         background-color: black;
         height: 0;
-        
-      }
+
+    }
 
 
 
     #blur {
         height: 0;
         width: 0;
-      }
+    }
 
 
 
